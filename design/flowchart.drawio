@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="BsBV6leVBUCAfMzn52um" name="Page-1">
-        <mxGraphModel dx="562" dy="397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="650" dy="397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -17,139 +17,61 @@
                         <mxPoint x="390" y="190" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="221" value="ay = &quot;ay&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="221" value="new_words = [ ]" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="340" y="130" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="242" value="main" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="370" y="20" width="40" height="20" as="geometry"/>
+                <mxCell id="242" value="pig_latin function" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="335" y="20" width="110" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="268" style="edgeStyle=none;html=1;" edge="1" parent="1" source="266" target="267">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="268" style="edgeStyle=none;html=1;" parent="1" source="266" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="390" y="250" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="266" value="way = &quot;way&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="266" value="words = sentence.split( )" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="340" y="190" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="270" style="edgeStyle=none;html=1;" edge="1" parent="1" source="267" target="269">
+                <mxCell id="308" style="edgeStyle=none;html=1;" edge="1" parent="1" source="306" target="307">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="267" value="&lt;div&gt;consonant = (&lt;span&gt;&quot;B&quot;,&amp;nbsp;&lt;/span&gt;&lt;span&gt;&quot;C&quot;,&amp;nbsp;&lt;/span&gt;&lt;span&gt;&quot;D&quot;,&amp;nbsp;&lt;/span&gt;&lt;span&gt;&quot;F&quot;,&lt;/span&gt;&lt;span&gt;&quot;G&quot;,&lt;/span&gt;&lt;span&gt;&quot;H&quot;,&lt;/span&gt;&lt;span&gt;&amp;nbsp; &quot;J&quot;,&lt;/span&gt;&lt;span&gt;&quot;K&quot;,&lt;/span&gt;&lt;span&gt;&quot;L&quot;,&lt;/span&gt;&lt;span&gt;&quot;M&quot;,&lt;/span&gt;&lt;span&gt;&quot;N&quot;,&lt;/span&gt;&lt;span&gt;&quot;P&quot;,&lt;/span&gt;&lt;span&gt;&quot;Q&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;R&quot;,&lt;span&gt;&quot;S&quot;,&lt;/span&gt;&lt;span&gt;&quot;T&quot;,&lt;/span&gt;&lt;span&gt;&quot;Y&quot;,&lt;/span&gt;&lt;span&gt;&quot;V&quot;,&lt;/span&gt;&lt;span&gt;&quot;X&quot;&lt;/span&gt;&lt;span&gt;&quot;Z&quot;,&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="315" y="250" width="150" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="272" style="edgeStyle=none;html=1;" edge="1" parent="1" source="269" target="271">
+                <mxCell id="314" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" source="306" target="312">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="269" value="vowel = (&quot;A&quot;, &quot;E&quot;, &quot;I&quot;, &quot;O&quot;, &quot;U&quot;)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="340" y="350" width="100" height="40" as="geometry"/>
+                <mxCell id="306" value="for word in words" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="250" width="120" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="274" style="edgeStyle=none;html=1;" edge="1" parent="1" source="271" target="273">
+                <mxCell id="310" style="edgeStyle=none;html=1;" edge="1" parent="1" source="307" target="309">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="271" value="get user input" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="337.5" y="410" width="105" height="40" as="geometry"/>
+                <mxCell id="307" value="new_word = &quot;{0}{1}ay&quot;.format(word[1:], word[0])" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="315" y="340" width="150" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="276" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="273" target="275">
+                <mxCell id="313" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="309" target="312">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="273" value="first_letter = user_word[0]" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="337.5" y="470" width="105" height="40" as="geometry"/>
+                <mxCell id="309" value="new_words.append&lt;br&gt;(new_word)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="420" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="278" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="275" target="277">
+                <mxCell id="311" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="320" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="317" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.426;entryY=1.105;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="312" target="316">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="275" value="&amp;nbsp;first_letter = str(first_letter)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="337.5" y="530" width="105" height="40" as="geometry"/>
+                <mxCell id="312" value="new_sentence = &quot; &quot;.join(new_words)&lt;br&gt;.lower()" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="415" width="160" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="281" style="edgeStyle=none;html=1;" edge="1" parent="1" source="277" target="280">
+                <mxCell id="315" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="445" y="270" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="319" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="316" target="318">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="277" value="first_letter = first_letter.upper()" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="337.5" y="590" width="105" height="40" as="geometry"/>
+                <mxCell id="316" value="return &lt;br&gt;new_sentence" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="340" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="283" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="280" target="282">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="293" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;rounded=0;startArrow=none;exitX=0.355;exitY=1.073;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="294" target="291">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="610" y="612"/>
-                            <mxPoint x="610" y="300"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="280" value="if first_letter in consonant" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="470" y="575" width="110" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="285" style="edgeStyle=none;html=1;" edge="1" parent="1" source="282" target="284">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="282" value="length_of_word = len(user_word)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="472.5" y="510" width="105" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="287" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="284" target="286">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="284" value="remove_first_letter = user_word[1:&lt;br&gt;length_of_word]" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="472.5" y="450" width="105" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="289" style="edgeStyle=none;html=1;" edge="1" parent="1" source="286" target="288">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="286" value="pig_latin = remove_first_letter + first_letter + ay" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="472.5" y="390" width="105" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="292" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="288" target="291">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="288" value="print(&quot;Your word translated to pig &lt;br&gt;latin is:&quot;, pig_latin)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-                    <mxGeometry x="457.5" y="320" width="135" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="290" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="495" y="560" width="30" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="297" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="291" target="296">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="303" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="291">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="525" y="90" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="610" y="265"/>
-                            <mxPoint x="610" y="90"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="291" value="elif first_letter &lt;br&gt;in vowel:" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="475" y="230" width="100" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="294" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="570" y="590" width="30" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="299" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="296" target="298">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="296" value="pig_latin = user_word + way" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="472.5" y="170" width="105" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="302" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="298" target="301">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="298" value="print(&quot;The word in &lt;br&gt;Pig Latin is:&quot;, &lt;br&gt;pig_latin)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-                    <mxGeometry x="460" y="100" width="130" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="300" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="525" y="210" width="30" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="306" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="301" target="305">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="301" value="print(&quot;Invalid Input.&quot;)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-                    <mxGeometry x="450" y="50" width="150" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="304" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="570" y="250" width="30" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="305" value="stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="640" y="45" width="70" height="40" as="geometry"/>
+                <mxCell id="318" value="stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="250" width="100" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
